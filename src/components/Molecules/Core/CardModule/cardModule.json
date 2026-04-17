@@ -1,0 +1,65 @@
+{
+  "_uid": "card-module-1",
+  "component": "CardModule",
+  "title": "Epidemiological analysis",
+  "subTitle": "Build confidence interpreting mortality, incidence, and trend data from real health scenarios.",
+  "image": {
+    "alt": "A team discussing a data dashboard in front of a wall display",
+    "copyright": null,
+    "fieldtype": "asset",
+    "id": 101682550221975,
+    "filename": "./images/group-of-medical-professionals.jpeg",
+    "name": "group-of-medical-professionals.jpeg",
+    "title": null,
+    "focus": null,
+    "meta_data": {},
+    "source": null,
+    "is_external_url": false
+  },
+  "unitOptions": [
+    {
+      "_uid": "unit-option-1",
+      "label": "Mortality analysis",
+      "link": {
+        "fieldtype": "multilink",
+        "id": "unit-1",
+        "url": "",
+        "cached_url": "learning-resources/data-analysis/epidemiological-analysis/mortality-analysis",
+        "title": "Mortality analysis",
+        "linktype": "story",
+        "story": {
+          "name": "Mortality analysis",
+          "created_at": "2025-10-15T07:48:01.553Z",
+          "published_at": "2025-10-15T08:20:44.894Z",
+          "id": 101682714872993,
+          "uuid": "41ae6a48-4b7d-45d4-af21-06a72ecdbe13",
+          "content": {},
+          "slug": "mortality-analysis",
+          "full_slug": "learning-resources/data-analysis/epidemiological-analysis/mortality-analysis/"
+        }
+      }
+    },
+    {
+      "_uid": "unit-option-2",
+      "label": "Incidence analysis",
+      "link": {
+        "fieldtype": "multilink",
+        "id": "unit-2",
+        "url": "",
+        "cached_url": "learning-resources/data-analysis/epidemiological-analysis/incidence-analysis",
+        "title": "Incidence analysis",
+        "linktype": "story",
+        "story": {
+          "name": "Incidence analysis",
+          "created_at": "2025-10-15T07:48:01.553Z",
+          "published_at": "2025-10-15T08:20:44.894Z",
+          "id": 101682714872994,
+          "uuid": "b3445d67-b16a-4a73-8f9f-c0dd11ffcb69",
+          "content": {},
+          "slug": "incidence-analysis",
+          "full_slug": "learning-resources/data-analysis/epidemiological-analysis/incidence-analysis/"
+        }
+      }
+    }
+  ]
+}

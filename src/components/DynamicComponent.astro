@@ -18,6 +18,7 @@ import { StrategicPartners } from "@src/components/Organisms/Home/StrategicPartn
 import { Table } from "@src/components/Molecules/Core/Table/Table";
 import { Tip } from "@src/components/Molecules/Core/Tip/Tip";
 import { ToolsCarousel } from "@src/components/Organisms/Home/ToolsCarousel/ToolsCarousel";
+import { ModuleBlock } from "@/src/components/Organisms/Module/ModuleBlock/ModuleBlock";
 import { UnitBlock } from "@/src/components/Organisms/Unit/UnitBlock/UnitBlock";
 import { Video } from "@/src/components/Organisms/Core/Video/Video";
 
@@ -40,6 +41,7 @@ const COMPONENT_NAMES: string[] = [
   "Table",
   "Tip",
   "ToolsCarousel",
+  "ModuleBlock",
   "UnitBlock",
   "Video",
 ];
@@ -63,6 +65,8 @@ if (!COMPONENT_NAMES.includes(blok.component)) {
       <Code {...blok} client:only="react" />
     ) : componentName === "ContentHighlight" ? (
       <ContentHighlight {...blok} client:visible />
+    ) : componentName === "ModuleBlock" ? (
+      <ModuleBlock {...blok} />
     ) : componentName === "UnitBlock" ? (
       <UnitBlock {...blok} />
     ) : componentName === "CaseStudies" ? (

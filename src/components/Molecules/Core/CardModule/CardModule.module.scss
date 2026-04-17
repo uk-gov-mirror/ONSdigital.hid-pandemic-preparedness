@@ -1,0 +1,54 @@
+@use "../../../../styles/global/tokens" as *;
+
+.card-module {
+  border-color: $color-brand-secondary-200;
+  transition: transform 0.3s ease;
+  width: 100%;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.card-module-image {
+  aspect-ratio: 16 / 9;
+  border-radius: 1rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.title-height {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  height: calc(1.2em * 2);
+}
+
+.card-module-title {
+  color: $color-brand-primary-500;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-module-select {
+  border-color: $color-brand-secondary-200;
+
+  &:focus-visible {
+    border-color: $color-brand-primary-500;
+    box-shadow: 0 0 0 0.25rem rgba(29, 77, 146, 0.2);
+    outline: 2px solid $color-brand-primary-500;
+    outline-offset: 2px;
+  }
+}
+
+.card-module-cta {
+  width: fit-content;
+
+  &:focus-visible {
+    outline: 2px solid $color-brand-primary-500;
+    outline-offset: 2px;
+  }
+}
