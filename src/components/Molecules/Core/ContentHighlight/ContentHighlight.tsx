@@ -36,7 +36,7 @@ export const ContentHighlight: FC<ContentHighlightProps> = (props) => {
       <div className={clsx("rounded-bottom", styles["content-container"])}>
         {props.textarea?.map((blok: any) => {
           if (blok.component === "ContentArea") {
-            return <EmbeddedContentArea {...blok} />;
+            return <EmbeddedContentArea key={blok._uid} {...blok} />;
           } else {
             return <Dynamic key={blok._uid} content={[blok]} />;
           }

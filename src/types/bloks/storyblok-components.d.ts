@@ -244,6 +244,7 @@ export interface ContentHighlight {
   textarea?: (
     | RichText
     | ContentArea
+    | Code
     | Formula
     | Table
     | Tip
@@ -990,6 +991,7 @@ export interface UnitChapter {
 export interface UnitOverview {
   title?: string;
   content: (
+    | Code
     | RichText
     | Table
     | Iframe
@@ -1011,6 +1013,7 @@ export interface UnitOverview {
 export interface UnitSection {
   title: string;
   content: (
+    | Code
     | Formula
     | Iframe
     | RichText
